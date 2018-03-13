@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <TITLE>Hovercraft</TITLE>
+    <script type="text/javascript">
+        // STOP    = 0
+        // FORWARD = 1
+        // RIGHT   = 2
+        // BACK    = 3
+        // LEFT    = 4
+        // ROTATE  = 5
+        
+	function speedUp() {
+	    sendRequest("speed", "up");
+	}
+	function speedDown() {
+	    sendRequest("speed", "down");
+	}
+        function move(direction) {
+            
+            if (direction == 0)
+                sendRequest("direction", "Stop");
+            if (direction == 1)
+                sendRequest("direction", "Forward");
+            if (direction == 2)
+                sendRequest("direction", "Right");
+            if (direction == 3)
+                sendRequest("direction", "Back");
+            if (direction == 4)
+                sendRequest("direction", "Left");
+            if (direction == 5)
+                sendRequest("direction", "Rotate");
+        }
+
+        function sendRequest(r, p)
+        {
+            var xhr = new XMLHttpRequest();
+            var url = "http://192.168.4.1/index.htm?"+r+"=" + p;
+            xhr.open("POST", url);
+            xhr.send();
+        }
+
+    </script>
+</HEAD>
+
+<BODY>
+    <center>
+        <table cellpadding="10" cellspacing="10">
+            <tr>
+                <td align="center">&nbsp;</td>
+                <td align="center" onclick="move(1);"><img src="forward.png"/></td>
+                <td align="center">&nbsp;</td>
+            </tr>
+            <tr>
+                <td align="center" onclick="move(4);"><img src="left.png" /></td>
+                <td align="center" onclick="move(5);"><img src="rotate.png" /></td>
+                <td align="center" onclick="move(2);"><img src="right.png" /></td>
+            </tr>
+            <tr>
+                <td align="center">&nbsp;</td>
+                <td align="center" onclick="move(3);"><img src="back.png"/></td>
+                <td align="center">&nbsp;</td>
+            </tr>
+            <tr>
+                <td align="center">&nbsp;</td>
+                <td align="center" style="border:solid" onclick="move(0);">STOP</td>
+                <td align="center">&nbsp;</td>
+            </tr>
+            <!--tr>
+                <td align="center" onclick="speedUp();"><img src="forward.png"/></td>
+                <td align="center">Speed</td>
+                <td align="center" onclick="speedDown();"><img src="back.png"/></td>
+            </tr-->
+        </table>
+    </center>
+</BODY>
+</HTML>
