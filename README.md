@@ -3,6 +3,14 @@
 Рік випуску: 2018<br/>
 Версія: 1.0.0<br/>
 Розробник: Vivarium<br/>
+
+### The Team
+* Hanna Arnautova - Project Owner
+* Nadia Osmolovska - Scrum Master
+* Vlad Demchenko - TeamLead
+* Petro Tytynnyk - QA
+* Artem Kovtun - Programmer
+
 <br/>
 
 ## Апаратне забезпечення
@@ -33,3 +41,7 @@
 Відкрийте браузер та перейдіть за посиланням 192.168.4.<br/>
 Використовуйте сторінку для керування СПП<br/>
 <img src="manual.jpg"/>
+
+## [Presentation](https://docs.google.com/presentation/d/1z1jvBicq476FkcBde9EGEOWvIidIvTBUfIk4BAZKZ3M)
+## [BackLog](https://docs.google.com/spreadsheets/d/1z6GHyuT0LEgNXhS-u-57becTaySEWEbpg2JHoDbA46c/edit#gid=1759425724)
+## [First Sprint](https://docs.google.com/document/d/1OwtERoratjiM7CB4FbCCmYMP_eNZL4QrRwFtyWmVyFo/edit)
