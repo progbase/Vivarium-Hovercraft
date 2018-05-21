@@ -1,5 +1,5 @@
 # Vivarium-Hovercraft
-<img src="logo.png" height=100 width=100/>
+<img src="logo.png" height=200 width=200/>
 Рік випуску: 2018<br/>
 Версія: 1.0.0<br/>
 Розробник: Vivarium<br/>
