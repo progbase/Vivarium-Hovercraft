@@ -3,7 +3,6 @@
 Рік випуску: 2018<br/>
 Версія: 1.0.0<br/>
 Розробник: Vivarium<br/>
-=======
 # [Team] Vivarium
 
 ### The Team
@@ -44,7 +43,6 @@
 Використовуйте сторінку для керування СПП<br/>
 <img src="manual.jpg"/>
 
-=======
 # [Theme] Hovercraft
 ## [Documentation](https://docs.google.com/document/d/1JyV0ViiYVnGvyrKTF4wbdn-p6oPffxsg9a8Uhsoo2I0/edit?usp=sharing)
 ## [Presentation](https://docs.google.com/presentation/d/1z1jvBicq476FkcBde9EGEOWvIidIvTBUfIk4BAZKZ3M)
